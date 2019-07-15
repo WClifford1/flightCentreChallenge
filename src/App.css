@@ -3,19 +3,11 @@
   font-size: 12px;
   font-family: "Roboto", sans-serif;
   background-color: #F5F5F5;
-
-}
-
-body, html {
-  background-color: #F5F5F5;
-}
-
-.landing, .heading {
-  background-color: #F5F5F5;
 }
 
 .topText {
   position: relative;
+  overflow-x: hidden;
   left: 20rem;
   margin-top: 6rem;
   background-color: #F5F5F5;
@@ -32,6 +24,6 @@ body, html {
   flex-wrap: wrap;
   justify-content: center;
   background-color: #F5F5F5;
+  margin-top: 1rem;
   z-index: 2;
 }
-

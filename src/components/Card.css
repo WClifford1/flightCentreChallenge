@@ -1,87 +1,129 @@
-html {
+.card {
+    width: 300px;
+    box-shadow: .0rem .1rem rgba(0,0,0, 0.3);
+    border-radius: 5px;
+    margin: 0 14px;
     background-color: white;
 }
 
-section {
-background-color: #F5F5F5;
-}
-
-.card {
-width: 300px;
-box-shadow: .0rem .1rem rgba(0,0,0, 0.3);
-border-radius: 5px;
-margin: 0 20px;
-background-color: white;
-}
-
 .parent {
-width: 100%;
-position: relative;
+    width: 100%;
+    position: relative;
 }
 
 .card-img {
-height: 164px;
-border-radius: 5px 5px 0 0;
+    height: 164px;
+    border-radius: 5px 5px 0 0;
 }
 
 .card-logo {
-height: 41px;
+    height: 41px;
 }
 
 .child {
-width: 25%;
-position: absolute;
-height: 5rem;
-top: 123px;
+    width: 25%;
+    position: absolute;
+    height: 5rem;
+    top: 123px;
 }
 
 .info {
-z-index: 2;
-background-color: white;
-}
-
-#it {
-background-color: #fff;
+    z-index: 2;
+    background-color: white;
 }
 
 .button {
-background-color: #0072EA; /* Green */
-border: none;
-color: white;
-padding: 10px 24px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-float: right;
+    background-color: #0072EA;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 3px;
+    display: inline;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: .0rem .1rem rgba(0,0,0, 0.3);
+    float: right;
+}
+
+.button:focus,
+.button:active{
+	outline:none;
+}
+
+.button:hover {
+    background-color: #1540B8;
+    cursor: pointer;
 }
 
 #expand {
-color: #0072EA
+    color: #0072EA;
+    font-weight: 550;
 }
 
 .grid-container {
-display: grid;
-grid-template-columns: 20px auto;
-grid-template-rows: auto auto;
-margin-left: 1rem;
-margin-top: 1rem;
-background-color: white;
+    display: grid;
+    grid-template-columns: 20px auto;
+    grid-template-rows: auto auto;
+    margin-left: 12px;
+    margin-top: 1rem;
+    background-color: white;
 }
 
 .col1 {
-justify-self: center;
+    justify-self: center;
 }
-
 
 .grid-item {
-background-color: white;
-padding: 0 0;
-margin: 0 0;
+    background-color: white;
+    padding: 0 0;
+    margin: 2px 0;
 }
 
-.itinerary {
-background-color: white;
+.name{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    font-size: 16px;
+    font-weight: 525;
+    background-color: white;
+}
+
+.stars {
+    margin-left: 1px;
+}
+
+.from {
+    margin-bottom: 0;
+    color: #787878
+}
+
+#tooltip:hover {
+    cursor: pointer;
+}
+
+.price{
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.lineBreak{
+    margin-top:0;
+}
+
+sup {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.starImage {
+    margin-left: 1rem;
+    background-color: white;
+}
+
+.itinerary, .stars, .price, .lineBreak, .from {
+    background-color: white;
 }
 
 .bottomHalf {

@@ -32,7 +32,6 @@ export default class App extends Component {
     render() {
     return (
         <div className="landing">
-
             <div className="topText">
                 <h2 className="heading">Select a Tour</h2>
                 <p className="heading"><span className="heading bold">{Results.results.length} tours</span> found</p>
