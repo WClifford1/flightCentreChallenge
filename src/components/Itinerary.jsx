@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import './Card.modules.css';
-import pin from '../images/pin.svg'
+import '../App.css'
 
 
 export default class Itinerary extends Component {
@@ -49,8 +48,8 @@ export default class Itinerary extends Component {
         // hovering over itemsLeft calls expandList() function
         // else props.itinerary is rendered
         return (
-            <div>
-                <img className="img" src={pin} alt=""/>{this.state.shortState ? <span>{this.props.shortItinerary.join(', ') + "... "} <span id="expand" onMouseEnter={this.expandList} >{itemsLeft ? " +" + itemsLeft + " more" : ""}</span></span> : <span onMouseOut={this.reduceList}>{this.props.itinerary.join(', ')}</span>}
+            <div className="itinerary">
+                {this.state.shortState ? <span className="itinerary">{this.props.shortItinerary.join(', ') + "... "} <span className="itinerary" id="expand" onMouseEnter={this.expandList} >{itemsLeft ? " +" + itemsLeft + " more" : ""}</span></span> : <span className="itinerary" onMouseOut={this.reduceList}>{this.props.itinerary.join(', ')}</span>}
             </div>
         )
     }

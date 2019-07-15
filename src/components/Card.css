@@ -1,0 +1,90 @@
+html {
+    background-color: white;
+}
+
+section {
+background-color: #F5F5F5;
+}
+
+.card {
+width: 300px;
+box-shadow: .0rem .1rem rgba(0,0,0, 0.3);
+border-radius: 5px;
+margin: 0 20px;
+background-color: white;
+}
+
+.parent {
+width: 100%;
+position: relative;
+}
+
+.card-img {
+height: 164px;
+border-radius: 5px 5px 0 0;
+}
+
+.card-logo {
+height: 41px;
+}
+
+.child {
+width: 25%;
+position: absolute;
+height: 5rem;
+top: 123px;
+}
+
+.info {
+z-index: 2;
+background-color: white;
+}
+
+#it {
+background-color: #fff;
+}
+
+.button {
+background-color: #0072EA; /* Green */
+border: none;
+color: white;
+padding: 10px 24px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+float: right;
+}
+
+#expand {
+color: #0072EA
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: 20px auto;
+grid-template-rows: auto auto;
+margin-left: 1rem;
+margin-top: 1rem;
+background-color: white;
+}
+
+.col1 {
+justify-self: center;
+}
+
+
+.grid-item {
+background-color: white;
+padding: 0 0;
+margin: 0 0;
+}
+
+.itinerary {
+background-color: white;
+}
+
+.bottomHalf {
+    margin: 10px 10px;
+    background-color: white;
+}
