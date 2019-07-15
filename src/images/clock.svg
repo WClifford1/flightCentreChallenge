@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>ic-access-time-24px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.38">
+        <g id="Test_1200px" transform="translate(-135.000000, -406.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Cruise-Product-tile" transform="translate(120.000000, 147.000000)">
+                <g id="Nights" transform="translate(15.000000, 257.000000)">
+                    <g id="ic-access-time-24px" transform="translate(0.000000, 2.000000)">
+                        <path d="M5.98985769,0 C2.71141131,0 0.0565824447,2.688 0.0565824447,6 C0.0565824447,9.312 2.71141131,12 5.98985769,12 C9.27424329,12 11.9350114,9.312 11.9350114,6 C11.9350114,2.688 9.27424329,0 5.98985769,0 Z M5.99579691,10.8 C3.37066411,10.8 1.24442534,8.652 1.24442534,6 C1.24442534,3.348 3.37066411,1.2 5.99579691,1.2 C8.6209297,1.2 10.7471685,3.348 10.7471685,6 C10.7471685,8.652 8.6209297,10.8 5.99579691,10.8 Z" id="Shape"></path>
+                        <polygon id="Shape" points="5.53893426 2.76923077 4.62520895 2.76923077 4.62520895 6.40100883 7.82324751 8.30769231 8.28011016 7.56317781 5.53893426 5.94703657"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

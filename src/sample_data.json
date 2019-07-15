@@ -1,0 +1,65 @@
+{
+"results": [
+    {
+        "tour_name": "Grand European",
+        "operator": [
+            {
+                "name": "Topdeck Tours",
+                "logo": "https://flightcentre.com.au/cms_images/cbe/api/product-images/Topdeck-Logo.jpg"
+            }
+        ],
+        "image": "https://flightcentre.com.au/cms_images/cbe/api/product-images/Grand-European.jpg",
+        "itinerary": [
+            "London","Paris","Swiss Alps","Avignon","Barcelona","French Riviera","Monaco","Florence","Rome","Venice","Pag Island", "Ljubljana","Austrian Alps","Prague","Berlin","Amersterdam","London"
+        ],
+        "date_start": "2019-08-20",
+        "date_end": "2019-09-16",
+        "duration": 28,
+        "rating":4.5,
+        "price": 4095,
+        "currency": "AUD"
+        
+    },
+    {
+        "tour_name": "Ultimate South America",
+        "operator": [
+            {
+                "name": "Cosmos",
+                "logo": "https://flightcentre.com.au/cms_images/cbe/api/product-images/Cosmos-Logo.jpg"
+            }
+        ],
+        "image": "https://flightcentre.com.au/cms_images/cbe/api/product-images/Ultimate-South-America.jpg",
+        "itinerary": [
+            "Rio De Janeiro", "Iguassu Falls", "Buenos Aires","Lima","Sacred Valley","Machu Picchu","Cusco","Puno","Lima"
+        ],
+        "date_start": "2019-11-01",
+        "date_end": "2019-11-19",
+        "duration": 19,
+        "rating":4,
+        "price":5546,
+        "currency": "AUD"
+        
+    },
+    {
+        "tour_name": "Egypt and Jordan in Depth",
+        "operator": [
+            {
+                "name": "Peregrine",
+                "logo": "https://flightcentre.com.au/cms_images/cbe/api/product-images/Peregrine-Logo.jpg"
+            }
+        ],
+        "image": "https://flightcentre.com.au/cms_images/cbe/api/product-images/Egypt-Jordan-in-Depth.jpg",
+        "itinerary": [
+            "Cairo","Luxor","Alexandra","Abu Simbel","Aswan","Petra","Madaba","Amman"
+        ],
+        "date_start": "2020-02-05",
+        "date_end": "2020-02-26",
+        "duration": 22,
+        "rating":5,
+        "price":7935,
+        "currency": "AUD"
+    }
+    
+]
+
+}
